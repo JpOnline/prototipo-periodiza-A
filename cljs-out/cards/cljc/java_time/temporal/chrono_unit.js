@@ -23,8 +23,8 @@ cljc.java_time.temporal.chrono_unit.values = (function cljc$java_time$temporal$c
 return java.time.temporal.ChronoUnit.values();
 });
 cljc.java_time.temporal.chrono_unit.value_of = (function cljc$java_time$temporal$chrono_unit$value_of(var_args){
-var G__27536 = arguments.length;
-switch (G__27536) {
+var G__24348 = arguments.length;
+switch (G__24348) {
 case 1:
 return cljc.java_time.temporal.chrono_unit.value_of.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -91,5 +91,3 @@ return this3084.equals(java_lang_Object3085);
 cljc.java_time.temporal.chrono_unit.is_time_based = (function cljc$java_time$temporal$chrono_unit$is_time_based(this3086){
 return this3086.isTimeBased();
 });
-
-//# sourceMappingURL=chrono_unit.js.map

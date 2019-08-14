@@ -15,5 +15,3 @@ return this3060.subtractFrom(java_time_temporal_Temporal3061);
 cljc.java_time.temporal.temporal_amount.get_units = (function cljc$java_time$temporal$temporal_amount$get_units(this3062){
 return this3062.units();
 });
-
-//# sourceMappingURL=temporal_amount.js.map

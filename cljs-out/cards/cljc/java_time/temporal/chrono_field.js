@@ -43,8 +43,8 @@ cljc.java_time.temporal.chrono_field.values = (function cljc$java_time$temporal$
 return java.time.temporal.ChronoField.values();
 });
 cljc.java_time.temporal.chrono_field.value_of = (function cljc$java_time$temporal$chrono_field$value_of(var_args){
-var G__27546 = arguments.length;
-switch (G__27546) {
+var G__24353 = arguments.length;
+switch (G__24353) {
 case 1:
 return cljc.java_time.temporal.chrono_field.value_of.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -123,5 +123,3 @@ return this3120.isTimeBased();
 cljc.java_time.temporal.chrono_field.check_valid_value = (function cljc$java_time$temporal$chrono_field$check_valid_value(this3121,long3122){
 return this3121.checkValidValue(long3122);
 });
-
-//# sourceMappingURL=chrono_field.js.map

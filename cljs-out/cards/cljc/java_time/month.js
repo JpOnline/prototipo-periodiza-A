@@ -22,8 +22,8 @@ cljc.java_time.month.values = (function cljc$java_time$month$values(){
 return java.time.Month.values();
 });
 cljc.java_time.month.value_of = (function cljc$java_time$month$value_of(var_args){
-var G__27820 = arguments.length;
-switch (G__27820) {
+var G__24490 = arguments.length;
+switch (G__24490) {
 case 1:
 return cljc.java_time.month.value_of.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -117,5 +117,3 @@ return this2741.get(java_time_temporal_TemporalField2742);
 cljc.java_time.month.equals = (function cljc$java_time$month$equals(this2743,java_lang_Object2744){
 return this2743.equals(java_lang_Object2744);
 });
-
-//# sourceMappingURL=month.js.map

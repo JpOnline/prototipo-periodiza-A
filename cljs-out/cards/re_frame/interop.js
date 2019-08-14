@@ -69,18 +69,18 @@ return Date.now();
  */
 re_frame.interop.reagent_id = (function re_frame$interop$reagent_id(reactive_val){
 if((((!((reactive_val == null))))?((((false) || ((cljs.core.PROTOCOL_SENTINEL === reactive_val.reagent$ratom$IReactiveAtom$))))?true:false):false)){
-return [(function (){var pred__9122 = cljs.core.instance_QMARK_;
-var expr__9123 = reactive_val;
-if(cljs.core.truth_(pred__9122.call(null,reagent.ratom.RAtom,expr__9123))){
+return [(function (){var pred__12346 = cljs.core.instance_QMARK_;
+var expr__12347 = reactive_val;
+if(cljs.core.truth_(pred__12346.call(null,reagent.ratom.RAtom,expr__12347))){
 return "ra";
 } else {
-if(cljs.core.truth_(pred__9122.call(null,reagent.ratom.RCursor,expr__9123))){
+if(cljs.core.truth_(pred__12346.call(null,reagent.ratom.RCursor,expr__12347))){
 return "rc";
 } else {
-if(cljs.core.truth_(pred__9122.call(null,reagent.ratom.Reaction,expr__9123))){
+if(cljs.core.truth_(pred__12346.call(null,reagent.ratom.Reaction,expr__12347))){
 return "rx";
 } else {
-if(cljs.core.truth_(pred__9122.call(null,reagent.ratom.Track,expr__9123))){
+if(cljs.core.truth_(pred__12346.call(null,reagent.ratom.Track,expr__12347))){
 return "tr";
 } else {
 return "other";
@@ -93,5 +93,3 @@ return "other";
 return null;
 }
 });
-
-//# sourceMappingURL=interop.js.map
