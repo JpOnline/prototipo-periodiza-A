@@ -16,8 +16,8 @@ cljc.java_time.zone_offset.of_total_seconds = (function cljc$java_time$zone_offs
 return java.time.ZoneOffset.ofTotalSeconds(int2981);
 });
 cljc.java_time.zone_offset.of = (function cljc$java_time$zone_offset$of(var_args){
-var G__24495 = arguments.length;
-switch (G__24495) {
+var G__14334 = arguments.length;
+switch (G__14334) {
 case 1:
 return cljc.java_time.zone_offset.of.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

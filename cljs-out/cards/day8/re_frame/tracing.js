@@ -16,17 +16,17 @@ return day8.re_frame.tracing.trace_enabled_QMARK_;
 });
 day8.re_frame.tracing.reset_indent_level_BANG_ = debux.common.util.reset_indent_level_BANG_;
 day8.re_frame.tracing.set_print_seq_length_BANG_ = debux.common.util.set_print_seq_length_BANG_;
-var ret__4776__auto___29805 = (function (){
+var ret__4776__auto___29815 = (function (){
 day8.re_frame.tracing.dbgn = (function day8$re_frame$tracing$dbgn(var_args){
 var args__4736__auto__ = [];
-var len__4730__auto___29806 = arguments.length;
-var i__4731__auto___29807 = (0);
+var len__4730__auto___29816 = arguments.length;
+var i__4731__auto___29817 = (0);
 while(true){
-if((i__4731__auto___29807 < len__4730__auto___29806)){
-args__4736__auto__.push((arguments[i__4731__auto___29807]));
+if((i__4731__auto___29817 < len__4730__auto___29816)){
+args__4736__auto__.push((arguments[i__4731__auto___29817]));
 
-var G__29808 = (i__4731__auto___29807 + (1));
-i__4731__auto___29807 = G__29808;
+var G__29818 = (i__4731__auto___29817 + (1));
+i__4731__auto___29817 = G__29818;
 continue;
 } else {
 }
@@ -45,15 +45,15 @@ return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.cal
 day8.re_frame.tracing.dbgn.cljs$lang$maxFixedArity = (3);
 
 /** @this {Function} */
-day8.re_frame.tracing.dbgn.cljs$lang$applyTo = (function (seq29801){
-var G__29802 = cljs.core.first.call(null,seq29801);
-var seq29801__$1 = cljs.core.next.call(null,seq29801);
-var G__29803 = cljs.core.first.call(null,seq29801__$1);
-var seq29801__$2 = cljs.core.next.call(null,seq29801__$1);
-var G__29804 = cljs.core.first.call(null,seq29801__$2);
-var seq29801__$3 = cljs.core.next.call(null,seq29801__$2);
+day8.re_frame.tracing.dbgn.cljs$lang$applyTo = (function (seq29811){
+var G__29812 = cljs.core.first.call(null,seq29811);
+var seq29811__$1 = cljs.core.next.call(null,seq29811);
+var G__29813 = cljs.core.first.call(null,seq29811__$1);
+var seq29811__$2 = cljs.core.next.call(null,seq29811__$1);
+var G__29814 = cljs.core.first.call(null,seq29811__$2);
+var seq29811__$3 = cljs.core.next.call(null,seq29811__$2);
 var self__4717__auto__ = this;
-return self__4717__auto__.cljs$core$IFn$_invoke$arity$variadic(G__29802,G__29803,G__29804,seq29801__$3);
+return self__4717__auto__.cljs$core$IFn$_invoke$arity$variadic(G__29812,G__29813,G__29814,seq29811__$3);
 });
 
 return null;
@@ -61,15 +61,15 @@ return null;
 ;
 day8.re_frame.tracing.dbgn.cljs$lang$macro = true;
 
-var ret__4776__auto___29809 = day8.re_frame.tracing.register_macros_BANG_ = (function day8$re_frame$tracing$register_macros_BANG_(_AMPERSAND_form,_AMPERSAND_env,macro_type,symbols){
+var ret__4776__auto___29819 = day8.re_frame.tracing.register_macros_BANG_ = (function day8$re_frame$tracing$register_macros_BANG_(_AMPERSAND_form,_AMPERSAND_env,macro_type,symbols){
 return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("debux.cs.macro-types","register-macros!","debux.cs.macro-types/register-macros!",1232819383,null),null,(1),null)),(new cljs.core.List(null,macro_type,null,(1),null)),(new cljs.core.List(null,symbols,null,(1),null)))));
 });
 day8.re_frame.tracing.register_macros_BANG_.cljs$lang$macro = true;
 
-var ret__4776__auto___29812 = (function (){
+var ret__4776__auto___29822 = (function (){
 day8.re_frame.tracing.show_macros = (function day8$re_frame$tracing$show_macros(var_args){
-var G__29811 = arguments.length;
-switch (G__29811) {
+var G__29821 = arguments.length;
+switch (G__29821) {
 case 2:
 return day8.re_frame.tracing.show_macros.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -122,17 +122,17 @@ return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.cal
 }),new cljs.core.Keyword(null,"body","body",-2049205669).cljs$core$IFn$_invoke$arity$1(cljs.core.nth.call(null,new cljs.core.Keyword(null,"body","body",-2049205669).cljs$core$IFn$_invoke$arity$1(args_PLUS_body),(1)))))));
 }
 });
-var ret__4776__auto___29817 = (function (){
+var ret__4776__auto___29827 = (function (){
 day8.re_frame.tracing.defn_traced_STAR_ = (function day8$re_frame$tracing$defn_traced_STAR_(var_args){
 var args__4736__auto__ = [];
-var len__4730__auto___29818 = arguments.length;
-var i__4731__auto___29819 = (0);
+var len__4730__auto___29828 = arguments.length;
+var i__4731__auto___29829 = (0);
 while(true){
-if((i__4731__auto___29819 < len__4730__auto___29818)){
-args__4736__auto__.push((arguments[i__4731__auto___29819]));
+if((i__4731__auto___29829 < len__4730__auto___29828)){
+args__4736__auto__.push((arguments[i__4731__auto___29829]));
 
-var G__29820 = (i__4731__auto___29819 + (1));
-i__4731__auto___29819 = G__29820;
+var G__29830 = (i__4731__auto___29829 + (1));
+i__4731__auto___29829 = G__29830;
 continue;
 } else {
 }
@@ -159,13 +159,13 @@ return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.cal
 day8.re_frame.tracing.defn_traced_STAR_.cljs$lang$maxFixedArity = (2);
 
 /** @this {Function} */
-day8.re_frame.tracing.defn_traced_STAR_.cljs$lang$applyTo = (function (seq29814){
-var G__29815 = cljs.core.first.call(null,seq29814);
-var seq29814__$1 = cljs.core.next.call(null,seq29814);
-var G__29816 = cljs.core.first.call(null,seq29814__$1);
-var seq29814__$2 = cljs.core.next.call(null,seq29814__$1);
+day8.re_frame.tracing.defn_traced_STAR_.cljs$lang$applyTo = (function (seq29824){
+var G__29825 = cljs.core.first.call(null,seq29824);
+var seq29824__$1 = cljs.core.next.call(null,seq29824);
+var G__29826 = cljs.core.first.call(null,seq29824__$1);
+var seq29824__$2 = cljs.core.next.call(null,seq29824__$1);
 var self__4717__auto__ = this;
-return self__4717__auto__.cljs$core$IFn$_invoke$arity$variadic(G__29815,G__29816,seq29814__$2);
+return self__4717__auto__.cljs$core$IFn$_invoke$arity$variadic(G__29825,G__29826,seq29824__$2);
 });
 
 return null;
@@ -173,20 +173,20 @@ return null;
 ;
 day8.re_frame.tracing.defn_traced_STAR_.cljs$lang$macro = true;
 
-var ret__4776__auto___29824 = (function (){
+var ret__4776__auto___29834 = (function (){
 /**
  * Traced defn
  */
 day8.re_frame.tracing.defn_traced = (function day8$re_frame$tracing$defn_traced(var_args){
 var args__4736__auto__ = [];
-var len__4730__auto___29825 = arguments.length;
-var i__4731__auto___29826 = (0);
+var len__4730__auto___29835 = arguments.length;
+var i__4731__auto___29836 = (0);
 while(true){
-if((i__4731__auto___29826 < len__4730__auto___29825)){
-args__4736__auto__.push((arguments[i__4731__auto___29826]));
+if((i__4731__auto___29836 < len__4730__auto___29835)){
+args__4736__auto__.push((arguments[i__4731__auto___29836]));
 
-var G__29827 = (i__4731__auto___29826 + (1));
-i__4731__auto___29826 = G__29827;
+var G__29837 = (i__4731__auto___29836 + (1));
+i__4731__auto___29836 = G__29837;
 continue;
 } else {
 }
@@ -204,13 +204,13 @@ return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.cal
 day8.re_frame.tracing.defn_traced.cljs$lang$maxFixedArity = (2);
 
 /** @this {Function} */
-day8.re_frame.tracing.defn_traced.cljs$lang$applyTo = (function (seq29821){
-var G__29822 = cljs.core.first.call(null,seq29821);
-var seq29821__$1 = cljs.core.next.call(null,seq29821);
-var G__29823 = cljs.core.first.call(null,seq29821__$1);
-var seq29821__$2 = cljs.core.next.call(null,seq29821__$1);
+day8.re_frame.tracing.defn_traced.cljs$lang$applyTo = (function (seq29831){
+var G__29832 = cljs.core.first.call(null,seq29831);
+var seq29831__$1 = cljs.core.next.call(null,seq29831);
+var G__29833 = cljs.core.first.call(null,seq29831__$1);
+var seq29831__$2 = cljs.core.next.call(null,seq29831__$1);
 var self__4717__auto__ = this;
-return self__4717__auto__.cljs$core$IFn$_invoke$arity$variadic(G__29822,G__29823,seq29821__$2);
+return self__4717__auto__.cljs$core$IFn$_invoke$arity$variadic(G__29832,G__29833,seq29831__$2);
 });
 
 return null;
@@ -218,20 +218,20 @@ return null;
 ;
 day8.re_frame.tracing.defn_traced.cljs$lang$macro = true;
 
-var ret__4776__auto___29831 = (function (){
+var ret__4776__auto___29841 = (function (){
 /**
  * Traced form of fn. Prefer fn-traced to compile out under advanced optimizations.
  */
 day8.re_frame.tracing.fn_traced_STAR_ = (function day8$re_frame$tracing$fn_traced_STAR_(var_args){
 var args__4736__auto__ = [];
-var len__4730__auto___29832 = arguments.length;
-var i__4731__auto___29833 = (0);
+var len__4730__auto___29842 = arguments.length;
+var i__4731__auto___29843 = (0);
 while(true){
-if((i__4731__auto___29833 < len__4730__auto___29832)){
-args__4736__auto__.push((arguments[i__4731__auto___29833]));
+if((i__4731__auto___29843 < len__4730__auto___29842)){
+args__4736__auto__.push((arguments[i__4731__auto___29843]));
 
-var G__29834 = (i__4731__auto___29833 + (1));
-i__4731__auto___29833 = G__29834;
+var G__29844 = (i__4731__auto___29843 + (1));
+i__4731__auto___29843 = G__29844;
 continue;
 } else {
 }
@@ -259,13 +259,13 @@ return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.cal
 day8.re_frame.tracing.fn_traced_STAR_.cljs$lang$maxFixedArity = (2);
 
 /** @this {Function} */
-day8.re_frame.tracing.fn_traced_STAR_.cljs$lang$applyTo = (function (seq29828){
-var G__29829 = cljs.core.first.call(null,seq29828);
-var seq29828__$1 = cljs.core.next.call(null,seq29828);
-var G__29830 = cljs.core.first.call(null,seq29828__$1);
-var seq29828__$2 = cljs.core.next.call(null,seq29828__$1);
+day8.re_frame.tracing.fn_traced_STAR_.cljs$lang$applyTo = (function (seq29838){
+var G__29839 = cljs.core.first.call(null,seq29838);
+var seq29838__$1 = cljs.core.next.call(null,seq29838);
+var G__29840 = cljs.core.first.call(null,seq29838__$1);
+var seq29838__$2 = cljs.core.next.call(null,seq29838__$1);
 var self__4717__auto__ = this;
-return self__4717__auto__.cljs$core$IFn$_invoke$arity$variadic(G__29829,G__29830,seq29828__$2);
+return self__4717__auto__.cljs$core$IFn$_invoke$arity$variadic(G__29839,G__29840,seq29838__$2);
 });
 
 return null;
@@ -273,20 +273,20 @@ return null;
 ;
 day8.re_frame.tracing.fn_traced_STAR_.cljs$lang$macro = true;
 
-var ret__4776__auto___29838 = (function (){
+var ret__4776__auto___29848 = (function (){
 /**
  * Defines a traced fn
  */
 day8.re_frame.tracing.fn_traced = (function day8$re_frame$tracing$fn_traced(var_args){
 var args__4736__auto__ = [];
-var len__4730__auto___29839 = arguments.length;
-var i__4731__auto___29840 = (0);
+var len__4730__auto___29849 = arguments.length;
+var i__4731__auto___29850 = (0);
 while(true){
-if((i__4731__auto___29840 < len__4730__auto___29839)){
-args__4736__auto__.push((arguments[i__4731__auto___29840]));
+if((i__4731__auto___29850 < len__4730__auto___29849)){
+args__4736__auto__.push((arguments[i__4731__auto___29850]));
 
-var G__29841 = (i__4731__auto___29840 + (1));
-i__4731__auto___29840 = G__29841;
+var G__29851 = (i__4731__auto___29850 + (1));
+i__4731__auto___29850 = G__29851;
 continue;
 } else {
 }
@@ -304,13 +304,13 @@ return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.cal
 day8.re_frame.tracing.fn_traced.cljs$lang$maxFixedArity = (2);
 
 /** @this {Function} */
-day8.re_frame.tracing.fn_traced.cljs$lang$applyTo = (function (seq29835){
-var G__29836 = cljs.core.first.call(null,seq29835);
-var seq29835__$1 = cljs.core.next.call(null,seq29835);
-var G__29837 = cljs.core.first.call(null,seq29835__$1);
-var seq29835__$2 = cljs.core.next.call(null,seq29835__$1);
+day8.re_frame.tracing.fn_traced.cljs$lang$applyTo = (function (seq29845){
+var G__29846 = cljs.core.first.call(null,seq29845);
+var seq29845__$1 = cljs.core.next.call(null,seq29845);
+var G__29847 = cljs.core.first.call(null,seq29845__$1);
+var seq29845__$2 = cljs.core.next.call(null,seq29845__$1);
 var self__4717__auto__ = this;
-return self__4717__auto__.cljs$core$IFn$_invoke$arity$variadic(G__29836,G__29837,seq29835__$2);
+return self__4717__auto__.cljs$core$IFn$_invoke$arity$variadic(G__29846,G__29847,seq29845__$2);
 });
 
 return null;

@@ -25,8 +25,8 @@ cljc.java_time.year_month.get_year = (function cljc$java_time$year_month$get_yea
 return this2900.year();
 });
 cljc.java_time.year_month.plus = (function cljc$java_time$year_month$plus(var_args){
-var G__24383 = arguments.length;
-switch (G__24383) {
+var G__13790 = arguments.length;
+switch (G__13790) {
 case 3:
 return cljc.java_time.year_month.plus.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -70,8 +70,8 @@ cljc.java_time.year_month.minus_months = (function cljc$java_time$year_month$min
 return this2914.minusMonths(long2915);
 });
 cljc.java_time.year_month.minus = (function cljc$java_time$year_month$minus(var_args){
-var G__24386 = arguments.length;
-switch (G__24386) {
+var G__13793 = arguments.length;
+switch (G__13793) {
 case 2:
 return cljc.java_time.year_month.minus.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -124,8 +124,8 @@ cljc.java_time.year_month.minus_years = (function cljc$java_time$year_month$minu
 return this2935.minusYears(long2936);
 });
 cljc.java_time.year_month.parse = (function cljc$java_time$year_month$parse(var_args){
-var G__24389 = arguments.length;
-switch (G__24389) {
+var G__13796 = arguments.length;
+switch (G__13796) {
 case 2:
 return cljc.java_time.year_month.parse.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -157,8 +157,8 @@ cljc.java_time.year_month.adjust_into = (function cljc$java_time$year_month$adju
 return this2941.adjustInto(java_time_temporal_Temporal2942);
 });
 cljc.java_time.year_month.with$ = (function cljc$java_time$year_month$with(var_args){
-var G__24392 = arguments.length;
-switch (G__24392) {
+var G__13799 = arguments.length;
+switch (G__13799) {
 case 2:
 return cljc.java_time.year_month.with$.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -184,8 +184,8 @@ return this2945.with(G__2946,G__2947);
 cljc.java_time.year_month.with$.cljs$lang$maxFixedArity = 3;
 
 cljc.java_time.year_month.now = (function cljc$java_time$year_month$now(var_args){
-var G__24395 = arguments.length;
-switch (G__24395) {
+var G__13802 = arguments.length;
+switch (G__13802) {
 case 1:
 return cljc.java_time.year_month.now.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
