@@ -8,14 +8,14 @@ goog.require('re_frame.loggers');
  *   will not be present in the new structure.
  *   The key thing is that 'm' remains identical? to istelf if the path was never present
  */
-re_frame.utils.dissoc_in = (function re_frame$utils$dissoc_in(m,p__22114){
-var vec__22115 = p__22114;
-var seq__22116 = cljs.core.seq.call(null,vec__22115);
-var first__22117 = cljs.core.first.call(null,seq__22116);
-var seq__22116__$1 = cljs.core.next.call(null,seq__22116);
-var k = first__22117;
-var ks = seq__22116__$1;
-var keys = vec__22115;
+re_frame.utils.dissoc_in = (function re_frame$utils$dissoc_in(m,p__18291){
+var vec__18292 = p__18291;
+var seq__18293 = cljs.core.seq.call(null,vec__18292);
+var first__18294 = cljs.core.first.call(null,seq__18293);
+var seq__18293__$1 = cljs.core.next.call(null,seq__18293);
+var k = first__18294;
+var ks = seq__18293__$1;
+var keys = vec__18292;
 if(ks){
 var temp__5733__auto__ = cljs.core.get.call(null,m,k);
 if(cljs.core.truth_(temp__5733__auto__)){
@@ -40,3 +40,5 @@ return cljs.core.first.call(null,v);
 return re_frame.loggers.console.call(null,new cljs.core.Keyword(null,"error","error",-978969032),"re-frame: expected a vector, but got:",v);
 }
 });
+
+//# sourceMappingURL=utils.js.map

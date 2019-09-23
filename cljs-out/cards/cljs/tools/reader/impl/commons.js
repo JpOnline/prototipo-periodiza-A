@@ -18,8 +18,8 @@ cljs.tools.reader.impl.commons.read_past = (function cljs$tools$reader$impl$comm
 var ch = cljs.tools.reader.reader_types.read_char.call(null,rdr);
 while(true){
 if(pred.call(null,ch)){
-var G__13962 = cljs.tools.reader.reader_types.read_char.call(null,rdr);
-ch = G__13962;
+var G__9961 = cljs.tools.reader.reader_types.read_char.call(null,rdr);
+ch = G__9961;
 continue;
 } else {
 return ch;
@@ -82,8 +82,8 @@ return parseFloat(s);
 }
 });
 cljs.tools.reader.impl.commons.matches_QMARK_ = (function cljs$tools$reader$impl$commons$matches_QMARK_(pattern,s){
-var vec__13963 = cljs.core.re_find.call(null,pattern,s);
-var match = cljs.core.nth.call(null,vec__13963,(0),null);
+var vec__9962 = cljs.core.re_find.call(null,pattern,s);
+var match = cljs.core.nth.call(null,vec__9962,(0),null);
 return (match === s);
 });
 cljs.tools.reader.impl.commons.match_number = (function cljs$tools$reader$impl$commons$match_number(s){
@@ -133,14 +133,14 @@ return null;
 });
 cljs.tools.reader.impl.commons.read_comment = (function cljs$tools$reader$impl$commons$read_comment(var_args){
 var args__4736__auto__ = [];
-var len__4730__auto___13968 = arguments.length;
-var i__4731__auto___13969 = (0);
+var len__4730__auto___9967 = arguments.length;
+var i__4731__auto___9968 = (0);
 while(true){
-if((i__4731__auto___13969 < len__4730__auto___13968)){
-args__4736__auto__.push((arguments[i__4731__auto___13969]));
+if((i__4731__auto___9968 < len__4730__auto___9967)){
+args__4736__auto__.push((arguments[i__4731__auto___9968]));
 
-var G__13970 = (i__4731__auto___13969 + (1));
-i__4731__auto___13969 = G__13970;
+var G__9969 = (i__4731__auto___9968 + (1));
+i__4731__auto___9968 = G__9969;
 continue;
 } else {
 }
@@ -158,34 +158,36 @@ return cljs.tools.reader.impl.commons.skip_line.call(null,rdr);
 cljs.tools.reader.impl.commons.read_comment.cljs$lang$maxFixedArity = (1);
 
 /** @this {Function} */
-cljs.tools.reader.impl.commons.read_comment.cljs$lang$applyTo = (function (seq13966){
-var G__13967 = cljs.core.first.call(null,seq13966);
-var seq13966__$1 = cljs.core.next.call(null,seq13966);
+cljs.tools.reader.impl.commons.read_comment.cljs$lang$applyTo = (function (seq9965){
+var G__9966 = cljs.core.first.call(null,seq9965);
+var seq9965__$1 = cljs.core.next.call(null,seq9965);
 var self__4717__auto__ = this;
-return self__4717__auto__.cljs$core$IFn$_invoke$arity$variadic(G__13967,seq13966__$1);
+return self__4717__auto__.cljs$core$IFn$_invoke$arity$variadic(G__9966,seq9965__$1);
 });
 
 cljs.tools.reader.impl.commons.throwing_reader = (function cljs$tools$reader$impl$commons$throwing_reader(msg){
 return (function() { 
-var G__13971__delegate = function (rdr,_){
+var G__9970__delegate = function (rdr,_){
 return cljs.tools.reader.impl.errors.reader_error.call(null,rdr,msg);
 };
-var G__13971 = function (rdr,var_args){
+var G__9970 = function (rdr,var_args){
 var _ = null;
 if (arguments.length > 1) {
-var G__13972__i = 0, G__13972__a = new Array(arguments.length -  1);
-while (G__13972__i < G__13972__a.length) {G__13972__a[G__13972__i] = arguments[G__13972__i + 1]; ++G__13972__i;}
-  _ = new cljs.core.IndexedSeq(G__13972__a,0,null);
+var G__9971__i = 0, G__9971__a = new Array(arguments.length -  1);
+while (G__9971__i < G__9971__a.length) {G__9971__a[G__9971__i] = arguments[G__9971__i + 1]; ++G__9971__i;}
+  _ = new cljs.core.IndexedSeq(G__9971__a,0,null);
 } 
-return G__13971__delegate.call(this,rdr,_);};
-G__13971.cljs$lang$maxFixedArity = 1;
-G__13971.cljs$lang$applyTo = (function (arglist__13973){
-var rdr = cljs.core.first(arglist__13973);
-var _ = cljs.core.rest(arglist__13973);
-return G__13971__delegate(rdr,_);
+return G__9970__delegate.call(this,rdr,_);};
+G__9970.cljs$lang$maxFixedArity = 1;
+G__9970.cljs$lang$applyTo = (function (arglist__9972){
+var rdr = cljs.core.first(arglist__9972);
+var _ = cljs.core.rest(arglist__9972);
+return G__9970__delegate(rdr,_);
 });
-G__13971.cljs$core$IFn$_invoke$arity$variadic = G__13971__delegate;
-return G__13971;
+G__9970.cljs$core$IFn$_invoke$arity$variadic = G__9970__delegate;
+return G__9970;
 })()
 ;
 });
+
+//# sourceMappingURL=commons.js.map

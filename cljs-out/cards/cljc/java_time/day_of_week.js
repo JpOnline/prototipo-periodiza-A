@@ -17,8 +17,8 @@ cljc.java_time.day_of_week.values = (function cljc$java_time$day_of_week$values(
 return java.time.DayOfWeek.values();
 });
 cljc.java_time.day_of_week.value_of = (function cljc$java_time$day_of_week$value_of(var_args){
-var G__13827 = arguments.length;
-switch (G__13827) {
+var G__9826 = arguments.length;
+switch (G__9826) {
 case 1:
 return cljc.java_time.day_of_week.value_of.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -97,3 +97,5 @@ return this2605.get(java_time_temporal_TemporalField2606);
 cljc.java_time.day_of_week.equals = (function cljc$java_time$day_of_week$equals(this2607,java_lang_Object2608){
 return this2607.equals(java_lang_Object2608);
 });
+
+//# sourceMappingURL=day_of_week.js.map

@@ -8,8 +8,8 @@ cljc.java_time.zone_id.get_available_zone_ids = (function cljc$java_time$zone_id
 return java.time.ZoneId.getAvailableZoneIds();
 });
 cljc.java_time.zone_id.of = (function cljc$java_time$zone_id$of(var_args){
-var G__13849 = arguments.length;
-switch (G__13849) {
+var G__9848 = arguments.length;
+switch (G__9848) {
 case 1:
 return cljc.java_time.zone_id.of.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -64,3 +64,5 @@ return this2572.hashCode();
 cljc.java_time.zone_id.equals = (function cljc$java_time$zone_id$equals(this2573,java_lang_Object2574){
 return this2573.equals(java_lang_Object2574);
 });
+
+//# sourceMappingURL=zone_id.js.map

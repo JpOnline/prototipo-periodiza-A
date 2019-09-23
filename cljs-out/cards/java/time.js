@@ -1,6 +1,7 @@
 // Compiled by ClojureScript 1.10.520 {}
 goog.provide('java.time');
 goog.require('cljs.core');
+goog.require('js_joda');
 java.time.global$module$js_joda = goog.global["JSJoda"];
 java.time.Period = java.time.global$module$js_joda.Period;
 java.time.Instant = java.time.global$module$js_joda.Instant;
@@ -18,3 +19,5 @@ java.time.Clock = java.time.global$module$js_joda.Clock;
 java.time.ZoneOffset = java.time.global$module$js_joda.ZoneOffset;
 java.time.OffsetDateTime = java.time.global$module$js_joda.ZonedDateTime;
 java.time.OffsetTime = java.time.global$module$js_joda.LocalTime;
+
+//# sourceMappingURL=time.js.map

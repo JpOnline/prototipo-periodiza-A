@@ -45,3 +45,5 @@ return this2976.instant();
 cljc.java_time.clock.equals = (function cljc$java_time$clock$equals(this2977,java_lang_Object2978){
 return this2977.equals(java_lang_Object2978);
 });
+
+//# sourceMappingURL=clock.js.map

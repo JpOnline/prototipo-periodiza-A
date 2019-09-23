@@ -112,3 +112,5 @@ return this1840.plusYears(long1841);
 cljc.java_time.period.minus_days = (function cljc$java_time$period$minus_days(this1842,long1843){
 return this1842.minusDays(long1843);
 });
+
+//# sourceMappingURL=period.js.map

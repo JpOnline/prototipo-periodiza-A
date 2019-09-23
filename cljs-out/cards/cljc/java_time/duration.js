@@ -53,8 +53,8 @@ cljc.java_time.duration.plus_nanos = (function cljc$java_time$duration$plus_nano
 return this2768.plusNanos(long2769);
 });
 cljc.java_time.duration.plus = (function cljc$java_time$duration$plus(var_args){
-var G__14379 = arguments.length;
-switch (G__14379) {
+var G__10378 = arguments.length;
+switch (G__10378) {
 case 2:
 return cljc.java_time.duration.plus.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -89,8 +89,8 @@ cljc.java_time.duration.to_string = (function cljc$java_time$duration$to_string(
 return this2779.toString();
 });
 cljc.java_time.duration.minus = (function cljc$java_time$duration$minus(var_args){
-var G__14382 = arguments.length;
-switch (G__14382) {
+var G__10381 = arguments.length;
+switch (G__10381) {
 case 3:
 return cljc.java_time.duration.minus.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -185,8 +185,8 @@ cljc.java_time.duration.equals = (function cljc$java_time$duration$equals(this28
 return this2817.equals(java_lang_Object2818);
 });
 cljc.java_time.duration.of_seconds = (function cljc$java_time$duration$of_seconds(var_args){
-var G__14385 = arguments.length;
-switch (G__14385) {
+var G__10384 = arguments.length;
+switch (G__10384) {
 case 1:
 return cljc.java_time.duration.of_seconds.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -217,3 +217,5 @@ return this2822.minusDays(long2823);
 cljc.java_time.duration.to_days = (function cljc$java_time$duration$to_days(this2824){
 return this2824.toDays();
 });
+
+//# sourceMappingURL=duration.js.map

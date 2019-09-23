@@ -45,6 +45,7 @@ ReactDOM.findDOMNode;
 ReactDOM.unmountComponentAtNode;
 ReactDOM.render;
 var URIError;
+TypeError.prototype.toString;
 goog.global;
 goog.global.document;
 var marked;

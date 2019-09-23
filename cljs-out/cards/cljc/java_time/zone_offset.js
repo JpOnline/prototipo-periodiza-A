@@ -16,8 +16,8 @@ cljc.java_time.zone_offset.of_total_seconds = (function cljc$java_time$zone_offs
 return java.time.ZoneOffset.ofTotalSeconds(int2981);
 });
 cljc.java_time.zone_offset.of = (function cljc$java_time$zone_offset$of(var_args){
-var G__14334 = arguments.length;
-switch (G__14334) {
+var G__10333 = arguments.length;
+switch (G__10333) {
 case 1:
 return cljc.java_time.zone_offset.of.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -102,3 +102,5 @@ return this3015.get(java_time_temporal_TemporalField3016);
 cljc.java_time.zone_offset.equals = (function cljc$java_time$zone_offset$equals(this3017,java_lang_Object3018){
 return this3017.equals(java_lang_Object3018);
 });
+
+//# sourceMappingURL=zone_offset.js.map

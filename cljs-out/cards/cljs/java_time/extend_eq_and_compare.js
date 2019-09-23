@@ -293,3 +293,5 @@ java.time.Duration.prototype.cljs$core$IHash$_hash$arity$1 = (function (x){
 var x__$1 = this;
 return ((x__$1.nano() * (51)) + ((x__$1.seconds() ^ (x__$1.seconds() >>> (32))) | (0)));
 });
+
+//# sourceMappingURL=extend_eq_and_compare.js.map
